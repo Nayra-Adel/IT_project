@@ -9,7 +9,7 @@ $rows = $db->query($sql);
 <html lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="Style/userMoviesPage.css">
-    <script type="text/javascript" src="userMoviesPage.js"></script>
+    <script type="text/javascript" src="js\userMoviesPage.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -41,7 +41,7 @@ $rows = $db->query($sql);
             echo "<div class='panel-body'><img src='CMS/movies-images/".$row['img']."' class='img-responsive' alt='Image' style='  width:100%;height: 500px;'></div>";
             echo "<div class='panel-footer' id='footerPanel'>";
               echo "<center><a href='CMS\show.php?id=".$row['id']."' class='btn viewButtons'>view details</a></center>";
-            echo "</div></div>";
+            echo "</div></div></div>";
             }
             ?>
           </div>

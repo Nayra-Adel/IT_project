@@ -21,6 +21,6 @@ session_start();
     <input class="submitStyle" type="submit" name = "login" value="Let me in!" ">
     <input class="submitStyle"  type="submit" name  = "register" value="I'm New Here">
 </form>
-<script src = "verify.js" ></script>
+<script src = "js\verify.js" ></script>
 </body>
 </html>

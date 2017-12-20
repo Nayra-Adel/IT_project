@@ -72,13 +72,11 @@ $rows = $db->query($sql);
 						<table class="table color">
 							<thead>
 								<tr>
-									<th>ID.</th>
 									<th>Film</th>
 								</tr>
 							</thead>
 							<tbody>
 								<?php while($row = $rows->fetch_assoc()): ?>
-								<th><?php echo $row['id'] ?></th>
 								<td class="col-md-10"><?php echo $row['name'] ?> </td>
 							    <td><a href="update.php?id=<?php echo $row['id'];?>" class="btn btn-info">Edit</a> </td>
 		                        <td><a href="delete.php?id=<?php echo $row['id'];?>" class="btn btn-info">Delete</a> </td>

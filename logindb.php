@@ -18,12 +18,9 @@ if(isset($_POST['login'])){
     if ($row['type'] == "admin") {
     	  $_SESSION["signedEmail"] = $email;
         header('location: CMS\index.php');
-    } else if($row['type'] == "user"){
-        $_SESSION["signedEmail"] = $email;
-				header('location: userMoviesPage.php');
-    }else{
-    	$_SESSION["signedEmail"] = $email;
-    	header('location: login.php');
+    } else {
+     $_SESSION["signedEmail"] = $email;
+		header('location: userMoviesPage.php');
     }
 }
 else if(isset($_POST['register'])){
