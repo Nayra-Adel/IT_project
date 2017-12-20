@@ -1,0 +1,108 @@
+------------1-----------
+Name: Beauty and the beast
+image-url: https://images-na.ssl-images-amazon.com/images/I/81Km2a5t3eL.jpg
+image-name: beauty-beast.jpg
+description: Belle (Emma Watson), a bright, beautiful and independent young woman, is taken prisoner by a beast (Dan Stevens) in its castle. 
+Despite her fears, she befriends the castle's enchanted staff and learns to look beyond the beast's hideous exterior, 
+allowing her to recognize the kind heart and soul of the true prince that hides on the inside.
+
+------------2-----------
+Name: The Emoji Movie
+image-url: http://t0.gstatic.com/images?q=tbn:ANd9GcRQc0pj8eAuiJa5K_DX1MeTSWwQCX5mDaBWz8auP38FeUX7NX5V
+image-name: emoji.jpg
+description: Hidden inside a smartphone, the bustling city of Textopolis is home to all emojis. 
+Each emoji has only one facial expression, except for Gene, an exuberant emoji with multiple expressions. Determined to become "normal" like the other emojis, 
+Gene enlists the help of his best friend Hi-5 and a notorious code breaker called Jailbreak. During their travels through the other apps, 
+the three emojis discover a great danger that could threaten their phone's very existence.
+
+
+------------3-----------
+Name: Kong: Skull Island
+image-url: http://www.edownloadmovies.com/wp-content/uploads/2017/01/Kong-Skull-Island.jpg
+image-name: Kong-Skull-Island.jpg
+description: Scientists, soldiers and adventurers unite to explore a mythical, uncharted island in the Pacific Ocean. 
+Cut off from everything they know, they venture into the domain of the mighty Kong, igniting the ultimate battle between man and nature. 
+As their mission of discovery soon becomes one of survival, they must fight to escape from a primal world where humanity does not belong
+
+
+------------4-----------
+Name: It 
+image-url: http://t1.gstatic.com/images?q=tbn:ANd9GcTALjGaaCwNAfgH2Fa0jVpp2mEOhGRRw1v0lkRrHlUtXyKW0buX
+image-name: IT.jpg
+description: Seven young outcasts in Derry, Maine, are about to face their worst nightmare. 
+An ancient, shape-shifting evil that emerges from the sewer every 27 years to prey on the town's children. 
+Banding together over the course of one horrifying summer, the friends must overcome their own personal fears to battle the murderous, bloodthirsty clown known as Pennywise.
+
+
+------------5-----------
+Name: Dunkirk
+image-url: http://www.majesticcinemas.com.au/SharedContent/7e155fb7-c035-415d-b629-afda293bfe2b/9_ZziY1rBUadiBGqH6dX6w.jpg
+image-name: dunkirk.jpg
+description: In May 1940, Germany advanced into France, trapping Allied troops on the beaches of Dunkirk. 
+Under air and ground cover from British and French forces,
+troops were slowly and methodically evacuated from the beach using every serviceable naval and civilian vessel that could be found. 
+At the end of this heroic mission, 330,000 French, British, Belgian and Dutch soldiers were safely evacuated.
+
+
+------------6-----------
+Name: Sully
+image-url: https://lh3.googleusercontent.com/AJJmdkmyqk4u_Wny0b57X8Enu0rZpcmHrymJ-HFWTLCYu2iC-H1aL76663MY-j0qUeU
+image-name: sully.jpg
+description: The story of Chesley Sullenberger, an American pilot who became a hero after landing his damaged plane on the Hudson River in order to save the flight's passengers and crew. 
+
+
+------------7-----------
+Name: Ferdinand
+image-url: http://t2.gstatic.com/images?q=tbn:ANd9GcQaO6g_AzoSafZY601ACPFxXXrbvel4fV0fgeDHT6MMT8zdqFf8
+image-name: Ferdinand.jpg
+description: Ferdinand is a young bull who escapes from a training camp in rural Spain after his father never returns from a showdown with a matador. 
+Adopted by a girl who lives on a farm, Ferdinand's peaceful existence comes crashing down when the authorities return him to his former captors. 
+With help from a wisecracking goat and three hedgehogs, the giant but gentle bovine must find a way to break free before he squares off against El Primero, 
+the famous bullfighter who never loses.
+
+
+
+------------8-----------
+Name: Smurfs: The Lost Village
+image-url: https://2b9sqw2iiqxr36ntqa1exnal-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/ca4f98b242bc850a124d8f1caef6232a.jpg
+image-name: Smurfs.jpg
+description: Best friends Smurfette (Demi Lovato), Brainy (Danny Pudi), Clumsy (Jack McBrayer) and Hefty (Joe Manganiello) use a special map that guides them through the Forbidden Forest,
+ an enchanted wonderland that's filled with magical creatures. 
+Their adventure leads them on a course to discover the biggest secret in Smurf history as they race against time and the evil wizard Gargamel (Rainn Wilson) to find a mysterious village.
+
+
+
+------------9-----------
+Name: Jumanji: Welcome to the Jungle
+image-url: http://t2.gstatic.com/images?q=tbn:ANd9GcSGLiKxLm4FSbjNzysaI8xVoUEE27RDObZg9pSiP28nvSEwy7Mb
+image-name: Jumanji Welcome to the Jungle.jpg
+description: Four high school kids discover an old video game console and are drawn into the game's jungle setting, 
+literally becoming the adult avatars they chose. What they discover is that you don't just play Jumanji - you must survive it. 
+To beat the game and return to the real world, they'll have to go on the most dangerous adventure of their lives, discover what Alan Parrish left 20 years ago,
+and change the way they think about themselves - or they'll be stuck in the game forever.
+
+
+
+------------10-----------
+Name: Wonder
+image-url: https://pbs.twimg.com/media/DNjVPeFV4AAxav6.jpg
+image-name: Wonder.jpg
+description: Based on the New York Times bestseller, WONDER tells the incredibly inspiring and heartwarming story of August Pullman, 
+a boy with facial differences who enters fifth grade, attending a mainstream elementary school for the first time.
+
+
+
+
+------------11-----------
+Name: Murder on the Orient Express
+image-url: https://images-na.ssl-images-amazon.com/images/M/MV5BNGFmM2NmYjYtMjAwNy00ZDkzLWI3ZWMtOGZhOTRhYzQwMTA0XkEyXkFqcGdeQXVyNzU2MzMyNTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg
+image-name: Murder.jpg
+description: When a murder occurs on the train he's travelling on, celebrated detective Hercule Poirot is recruited to solve the case.
+
+
+
+------------12-----------
+Name: Ratatouille
+image-url: https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg
+image-name: rat.jpg
+description: A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant. 

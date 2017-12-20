@@ -2,7 +2,7 @@
 session_start();
 ?>
 <?php
-include 'CMS\db.php'; 
+include 'CMS\db.php';
 
 $email = $_POST["email"];
 $password = $_POST["password"];
@@ -11,15 +11,16 @@ if(isset($_POST['login'])){
 
 	$sql = "select * from user where email = '$email' and password = '$password'";
 	$query = $db->query($sql);
-   
+
 
 	$row = $query->fetch_assoc();
 
     if ($row['type'] == "admin") {
-    	 $_SESSION["signedEmail"] = $email;
-         header('location: CMS\index.php');
+    	  $_SESSION["signedEmail"] = $email;
+        header('location: CMS\index.php');
     } else if($row['type'] == "user"){
-        //reham
+        $_SESSION["signedEmail"] = $email;
+				header('location: userMoviesPage.php');
     }else{
     	$_SESSION["signedEmail"] = $email;
     	header('location: login.php');
@@ -31,7 +32,7 @@ else if(isset($_POST['register'])){
 
     if ($query) {
         $_SESSION["signedEmail"] = $email;
-        //reham
+        header('location: CMS\userMoviesPage.php');
     }else{
          header('Location: login.php');
     }
