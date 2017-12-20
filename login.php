@@ -15,7 +15,7 @@ session_start();
     <p class="knock"><b>K</b>noc<b>K</b>nock..</p>
     <p class="who">Who is there ?</p>
 </div>
-<form class="login" action="#" method="post" name = "login" onsubmit="return verifyEmail(document.login)" >
+<form class="login" action="nayra.php" method="post" name = "login" onsubmit="return verifyEmail(document.login)" >
     <input class="inputStyle" type="text" name = "email" placeholder="Email"> <br>
     <input class="inputStyle" type="password" name = "password" placeholder="Password"> <br>
     <input class="submitStyle" type="submit" name = "login" value="Let me in!" ">
@@ -24,33 +24,3 @@ session_start();
 <script src = "verify.js" ></script>
 </body>
 </html>
-
-<?php
-$email = $_POST["email"];
-$password = $_POST["password"];
-if($_POST['action'] == 'login') {
-    $con = mysql_connect("localhost", "root", "12345678");
-    mysql_select_db("user");
-    $query = mysql_query("select type where email = $email && password == $password");
-    if ($query) {
-        $row = mysql_fetch_array($query);
-        if ($row['type'] == "admin") {
-            header('location: CMS\index.php');
-        } else {
-            //reham
-        }
-    }else{
-        header('Location: login.php');
-    }
-}else if($_POST['action'] == 'register'){
-    $con = mysql_connect("localhost", "root", "12345678");
-    mysql_select_db("user");
-    $query = mysql_query("INSERT INTO USER(email, password, type) VALUES ($email, $password, 'user')");
-    if ($query) {
-        $_SESSION["signedEmail"] = $email;
-        //reham
-    }else{
-        header('Location: login.php');
-    }
-}
-

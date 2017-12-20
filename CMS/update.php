@@ -19,13 +19,18 @@
 	<head>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<title>update</title>
+		<style type="text/css">
+			.color{
+				color: white;
+			}
+		</style>
 	</head>
-	<body>
+	<body background="img\BG_Home_1.jpg">
 		<div class="container">
-			<center><h1>Update Films</h1></center>
+			<center><h1 class="color">Update Films</h1></center>
 			<div class="row" style="margin-top: 70px;">
 				<div class="col-md-10 col-md-offset-1" >
-					<table class="table">
+					<table class="table color">
 						<hr><br>
 						<form method="post" enctype="multipart/form-data">
 							<div class="form-group">
