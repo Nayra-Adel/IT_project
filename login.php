@@ -15,7 +15,7 @@ session_start();
     <p class="knock"><b>K</b>noc<b>K</b>nock..</p>
     <p class="who">Who is there ?</p>
 </div>
-<form class="login" action="nayra.php" method="post" name = "login" onsubmit="return verifyEmail(document.login)" >
+<form class="login" action="logindb.php" method="post" name = "login" onsubmit="return verifyEmail(document.login)" >
     <input class="inputStyle" type="text" name = "email" placeholder="Email"> <br>
     <input class="inputStyle" type="password" name = "password" placeholder="Password"> <br>
     <input class="submitStyle" type="submit" name = "login" value="Let me in!" ">
