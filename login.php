@@ -35,7 +35,7 @@ if($_POST['action'] == 'login') {
     if ($query) {
         $row = mysql_fetch_array($query);
         if ($row['type'] == "admin") {
-            //nayra
+            header('location: CMS\index.php');
         } else {
             //reham
         }

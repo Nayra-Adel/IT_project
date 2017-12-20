@@ -14,19 +14,29 @@ $rows = $db->query($sql);
 ?>
 <html>
 	<head>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+		<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+		<script src="bootstrap\ajax.js">
 		</script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<title>TODO List App</title>
+
+		<style type="text/css">
+			.color{
+				color: white;
+			}
+		</style>
+	<title> Admin panel </title>
 	</head>
-	<body>
+	<body background="img\BG_Home_1.jpg">
 		<div class="container">
-			<center><h1>Favorite Films list</h1></center>
+			<center><h1 class="color" style="font-family: 'Monoton';">Admin</h1></center>
 			<div class="row" style="margin-top: 70px;">
 				<div class="col-md-10 col-md-offset-1" >
 					<table class="table">
-						<button type="button" data-target="#myModal" data-toggle="modal" class="btn btn-success ">Add Film</button>
+						<button type="button" data-target="#myModal" data-toggle="modal" class="btn btn-info ">Add Film</button>&nbsp;&nbsp;&nbsp;
+
+						<a href="view.php" class="btn btn-danger">View</a> 
+
 						<hr>						
 						<!-- Modal -->
 						<div id="myModal" class="modal fade" role="dialog">
@@ -38,13 +48,23 @@ $rows = $db->query($sql);
 										<h4 class="modal-title">Favorite Films</h4>
 									</div>
 									<div class="modal-body">
-										<form method="post" action="add.php">
+
+										<form method="post" action="add.php" enctype="multipart/form-data">
+
 											<div class="form-group">
-												<label>Film Name</label>
-												<input type="text" required name="task" class="form-control">
+												<label>Name</label>
+												<input type="text" required name="name" class="form-control">
+
+												<label>Description</label>
+												<input type="text" required name="description" class="form-control">
+
+												<label>Image</label>
+												<input type="file" required name="image" class="form-control">
 											</div>
-											<input type="submit" name="send" value="Add Film" class="btn btn-success">
+
+											<input type="submit" name="add_film" value="Add Film" class="btn btn-success">
 										</form>
+
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -52,7 +72,7 @@ $rows = $db->query($sql);
 								</div>
 							</div>
 						</div>
-						<table class="table table-hover">
+						<table class="table color">
 							<thead>
 								<tr>
 									<th>ID.</th>
@@ -63,8 +83,9 @@ $rows = $db->query($sql);
 								<?php while($row = $rows->fetch_assoc()): ?>
 								<th><?php echo $row['id'] ?></th>
 								<td class="col-md-10"><?php echo $row['name'] ?> </td>
-							    <td><a href="update.php?id=<?php echo $row['id'];?>" class="btn btn-success">Edit</a> </td>
+							    <td><a href="update.php?id=<?php echo $row['id'];?>" class="btn btn-info">Edit</a> </td>
 		                        <td><a href="delete.php?id=<?php echo $row['id'];?>" class="btn btn-danger">Delete</a> </td>
+		                        <td><a href="show.php?id=<?php echo $row['id'];?>" class="btn btn-danger">Show</a> </td>
 							</tr>
 							<?php endwhile; ?>
 							
