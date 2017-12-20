@@ -35,7 +35,7 @@
 						<hr><br>
 						<form method="post" enctype="multipart/form-data">
 							<div class="form-group">
-								<label>Film Name</label>
+								<label>Name</label>
 								<input type="text" required name="task" value="<?php echo $row['name'];?>" class="form-control"><br>
 								<label>Description</label>
 								<input type="text" required name="description" value="<?php echo $row['description'];?>" class="form-control"><br>

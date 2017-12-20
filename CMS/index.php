@@ -34,9 +34,6 @@ $rows = $db->query($sql);
 				<div class="col-md-10 col-md-offset-1" >
 					<table class="table">
 						<button type="button" data-target="#myModal" data-toggle="modal" class="btn btn-info ">Add Film</button>&nbsp;&nbsp;&nbsp;
-
-						<a href="view.php" class="btn btn-danger">View</a> 
-
 						<hr>						
 						<!-- Modal -->
 						<div id="myModal" class="modal fade" role="dialog">
@@ -45,7 +42,7 @@ $rows = $db->query($sql);
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">Favorite Films</h4>
+										<h4 class="modal-title" style="font-family: 'Monoton';" >Add Films</h4>
 									</div>
 									<div class="modal-body">
 

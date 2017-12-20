@@ -13,9 +13,10 @@ $sql = "select * from filmsTable where id = '$id'";
 $rows = $db->query($sql);
 $row = $rows->fetch_assoc();
 
+
 echo "<div class='panel-heading header'>";
 echo  "<br><center><h3 style='font-size:50px;color:#fff;'>".$row['name']." </h3></center></div> ";
-echo "<br><center><img style='width:600px;height: 500px;' src='".$row['img'] ."'/></center>";
+echo "<br><center><img style='width:600px;height: 500px;' src='movies-images/".$row['img'] ."'/></center>";
 echo "<br><span font-size=50px style='color:#fff;'>Description: ".$row['description']." </span>";
 
 $db->close();

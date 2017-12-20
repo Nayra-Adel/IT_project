@@ -7,7 +7,7 @@ if (isset($_POST['add_film'])) {
 
 	$description = htmlspecialchars($_POST['description']); // any sql congection
 
-	$query = "insert into Films.filmsTable (name, img, description) VALUES ('$name', '$img', 'description')";
+	$query = "insert into Films.filmsTable (name, img, description) VALUES ('$name', '$img', '$description')";
 	$val = $db->query($query);
 	if($val){
 		 // echo "<h1>Successfuly inserted</h1>";
